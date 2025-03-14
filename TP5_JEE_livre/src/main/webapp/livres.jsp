@@ -18,7 +18,7 @@
 			<div class="card-header">Recherche des livres</div>
 			<div class="card-body">
 				<form action="chercher.do" method="get">
-					<label>Mot Clé</label> <input type="text" name="motCle"
+					<label>Titre</label> <input type="text" name="motCle"
 						value="${model.motCle}" />
 					<button type="submit" class="btn btn-primary">Chercher</button>
 				</form>
